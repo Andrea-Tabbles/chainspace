@@ -7,7 +7,7 @@
 # docker build . -t  dyne/decodeos:latest
 #
 # run with:
-# docker run -it -p 9001:9001 -p 8081:8081 -p 19999:19999 dyne/decodeos:latest
+# docker run -it -p 9001:9001 -p 8081:8081 -p 19999:19999 dyne/decodeos:latest /bin/bash
 #
 #Then connect to the web interfaces to monitor the functioning of DECODE OS:
 #- http://localhost:9001 to supervise the daemons running and their logs
